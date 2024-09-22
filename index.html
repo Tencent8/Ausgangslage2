@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <html data-lt-installed="true">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -31,20 +33,11 @@
     <div class="w3-top">
         <div class="w3-bar w3-theme-d2 w3-left-align">
             <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-            <a href="./index.html#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+            <a href="./index.html#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>8CENT</a>
             <a href="./index.html#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
             <a href="./index.html#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
             <a href="./index.html#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
             <a href="./index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-            <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                    <a href="./index.html#" class="w3-bar-item w3-button">Link</a>
-                    <a href="./index.html#" class="w3-bar-item w3-button">Link</a>
-                    <a href="./index.html#" class="w3-bar-item w3-button">Link</a>
-                </div>
-            </div>
-            <a href="./index.htm#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
         </div>
 
         <!-- Navbar on small screens -->
@@ -59,11 +52,18 @@
 
     <!-- Image Header -->
     <div class="w3-display-container w3-animate-opacity">
-        <img src="./img/sailboat.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-        <div class="w3-container w3-display-bottomleft w3-margin-bottom">
-            <button onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;block&#39;" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">LEARN W3.CSS</button>
+        <div class="Main_Title">
+            8CENT
         </div>
+        <img src="./img/First_Image.jpg" alt="boat" style="width:100%;height: 100%;">
     </div>
+
+    <!-- Background Video -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source src="/videos/video.mp4" type="video/mp4">
+        </video>
+      </div>
 
     <!-- Modal -->
     <div id="id01" class="w3-modal">
@@ -91,27 +91,35 @@
         <div class="w3-row"><br>
 
             <div class="w3-quarter">
-                <img src="./img/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                <h3>Johnny Walker</h3>
-                <p>Web Designer</p>
+                <div class="portfolio-background">
+                <img src="./img/rocket.jpg" alt="Rocket" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Rocket League</h3>
+                <p>AI Software Developer</p>
+            </div>
             </div>
 
             <div class="w3-quarter">
-                <img src="./img/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                <h3>Rebecca Flex</h3>
-                <p>Support</p>
+                <div class="portfolio-background">
+                <img src="./img/Fort.jpg" alt="Fort" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Fort Nite</h3>
+                <p>CEO & Frounder</p>
+            </div>
             </div>
 
             <div class="w3-quarter">
-                <img src="./img/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                <h3>Jan Ringo</h3>
-                <p>Boss man</p>
+                <div class="portfolio-background">
+                <img src="./img/Elden.jpg" alt="Elden" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Elden Ring</h3>
+                <p>IT-Support</p>
+            </div>
             </div>
 
             <div class="w3-quarter">
-                <img src="./img/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-                <h3>Kai Ringo</h3>
-                <p>Fixer</p>
+                <div class="portfolio-background">
+                <img src="./img/Valo.jpg" alt="Valo" style="width:45%" class="w3-circle w3-hover-opacity">
+                <h3>Valo Rant</h3>
+                <p>CFO</p>
+            </div>
             </div>
 
         </div>
@@ -122,48 +130,56 @@
 
         <div class="w3-quarter">
             <h2>Our Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>We build sustainable digital solutions for a range of industries. From eco-friendly software applications to green technology platforms, our commitment is to deliver high-performance, user-friendly experiences. Each project is designed with a focus on reliability, security, and scalability, ensuring we meet the unique needs of our clients while promoting a greener future.</p>
         </div>
 
         <div class="w3-quarter">
             <div class="w3-card w3-white">
-                <img src="./img/snow.jpg" alt="Snow" style="width:100%">
-                <div class="w3-container">
-                    <h3>Customer 1</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                <img src="./img/reason1.jpg" alt="Snow" style="width:100%">
+                <div class="w3-container color-black">
+                    <div class="card">
+                        <h3>Sustainable Software Development</h3>
+                        <ul>
+                            <li>Eco-Friendly Applications</li>
+                            <li>High-Performance Solutions</li>
+                            <li>User-Centric Design</li>
+                            <li>Scalable Architecture</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="w3-quarter">
             <div class="w3-card w3-white">
-                <img src="./img/lights.jpg" alt="Lights" style="width:100%">
-                <div class="w3-container">
-                    <h3>Customer 2</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                <img src="./img/reason2.jpg" alt="Lights" style="width:100%">
+                <div class="w3-container color-black">
+                    <div class="card">
+                        <h3>Green Technology Platforms</h3>
+                        <ul>
+                            <li>Innovative Solutions</li>
+                            <li>Environmental Impact Tracking</li>
+                            <li>Data Security</li>
+                            <li>Efficiency Optimization</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="w3-quarter">
             <div class="w3-card w3-white">
-                <img src="./img/mountains.jpg" alt="Mountains" style="width:100%">
-                <div class="w3-container">
-                    <h3>Customer 3</h3>
-                    <h4>Trade</h4>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
-                    <p>Blablabla</p>
+                <img src="./img/reason3.jpg" alt="Mountains" style="width:100%">
+                <div class="w3-container color-black">
+                    <div class="card">
+                        <h3>Custom Digital Solutions</h3>
+                        <ul>
+                            <li>Tailored to Your Needs</li>
+                            <li>Reliability and Trust</li>
+                            <li>Rapid Development</li>
+                            <li>Continuous Support</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -178,57 +194,52 @@
     <!-- Pricing Row -->
     <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
         <h2>PRICING</h2>
-        <p>Choose a pricing plan that fits your needs.</p><br>
+        <p>Choose a service plan that fits your needs.</p><br>
+        
         <div class="w3-third w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="w3-theme">
-                    <p class="w3-xlarge">Basic</p>
+                    <p class="w3-xlarge">Basic Package</p>
                 </li>
-                <li class="w3-padding-16"><b>10GB</b> Storage</li>
-                <li class="w3-padding-16"><b>10</b> Emails</li>
-                <li class="w3-padding-16"><b>10</b> Domains</li>
-                <li class="w3-padding-16"><b>Endless</b> Support</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
-                    <span class="w3-opacity">per month</span>
+                <li class="w3-padding-16"><b>1 </b>Day of Development</li>
+                <li class="w3-padding-16"><b>Custom Software</b> Development</li>
+                <li class="w3-padding-16"><b>Eco-Friendly Solutions</b> Focus</li>
+                <li class="w3-padding-16"><b>Support</b> via Email</li>
+                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 500</h2>
                 </li>
                 <li class="w3-theme-l5 w3-padding-24">
                     <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
                 </li>
             </ul>
         </div>
-
+    
         <div class="w3-third w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="w3-theme-l2">
-                    <p class="w3-xlarge">Pro</p>
+                    <p class="w3-xlarge">Standard Package</p>
                 </li>
-                <li class="w3-padding-16"><b>25GB</b> Storage</li>
-                <li class="w3-padding-16"><b>25</b> Emails</li>
-                <li class="w3-padding-16"><b>25</b> Domains</li>
-                <li class="w3-padding-16"><b>Endless</b> Support</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
-                    <span class="w3-opacity">per month</span>
+                <li class="w3-padding-16"><b>3</b> Days of Development</li>
+                <li class="w3-padding-16"><b>Full Project Management</b></li>
+                <li class="w3-padding-16"><b>Analytics Integration</b></li>
+                <li class="w3-padding-16"><b>Priority Support</b> via Phone</li>
+                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 1,200</h2>
                 </li>
                 <li class="w3-theme-l5 w3-padding-24">
                     <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
                 </li>
             </ul>
         </div>
-
+    
         <div class="w3-third w3-margin-bottom">
             <ul class="w3-ul w3-border w3-hover-shadow">
                 <li class="w3-theme">
-                    <p class="w3-xlarge">Premium</p>
+                    <p class="w3-xlarge">Premium Package</p>
                 </li>
-                <li class="w3-padding-16"><b>50GB</b> Storage</li>
-                <li class="w3-padding-16"><b>50</b> Emails</li>
-                <li class="w3-padding-16"><b>50</b> Domains</li>
-                <li class="w3-padding-16"><b>Endless</b> Support</li>
-                <li class="w3-padding-16">
-                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
-                    <span class="w3-opacity">per month</span>
+                <li class="w3-padding-16"><b>1 Week</b> of Development</li>
+                <li class="w3-padding-16"><b>Comprehensive Solutions</b></li>
+                <li class="w3-padding-16"><b>Dedicated Project Manager</b></li>
+                <li class="w3-padding-16"><b>Unlimited Support</b></li></li>
+                    <h2 class="w3-wide"><i class="fa fa-usd"></i> 2,500</h2>
                 </li>
                 <li class="w3-theme-l5 w3-padding-24">
                     <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
@@ -236,6 +247,7 @@
             </ul>
         </div>
     </div>
+    
 
     <!-- Contact Container -->
     <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
@@ -244,9 +256,9 @@
                 <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
                 <h3>Address</h3>
                 <p>Swing by for a cup of coffee, or whatever.</p>
-                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Chicago, US</p>
-                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;+00 1515151515</p>
-                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;test@test.com</p>
+                <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;Lorrainestrasse 1, 3014 Bern</p>
+                <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;+41 78 403 25 10</p>
+                <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;info@8cent.com</p>
             </div>
             <div class="w3-col m7">
                 <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="https://www.w3schools.com/action_page.php" target="_blank">
@@ -271,7 +283,10 @@
     </div>
 
     <!-- Image of location/map -->
-    <img src="./img/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+     <div class="map_location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.360462067228!2d7.442093076973591!3d46.95460733277231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39eadb33c889%3A0x5c8c7fa0c8c79918!2sgibb%20-%20Berufsfachschule%20Bern!5e0!3m2!1sde!2sch!4v1727034050955!5m2!1sde!2sch" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+   
 
     <!-- Footer -->
     <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
@@ -282,6 +297,7 @@
         <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
         <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        <p>Images are generated with Adobe Firefly <a href="https://firefly.adobe.com/" target="_blank">firefly.adobe.com</a></p>
 
         <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
             <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>

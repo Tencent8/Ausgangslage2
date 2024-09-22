@@ -20,7 +20,11 @@
 
 .w3-theme-l1 {
     color: #fff !important;
-    background-color: #333333 !important
+    background-color: #0e4d20 !important;
+    opacity: 0.8;
+}
+
+.w3-theme-l1 {
 }
 
 .w3-theme-d1 {
