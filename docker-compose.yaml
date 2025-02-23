@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: git-registry.gibb.ch/tsh146278/docker/8cent:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
